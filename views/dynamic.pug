@@ -1,0 +1,15 @@
+doctype
+
+html 
+
+    head 
+        title=user
+    body
+        h1=user
+        a(href=url) click me
+        p Hello my name is #{user}
+
+        if(user)
+            h1 Hi #{user}
+        else
+            a(href='/signup')    
